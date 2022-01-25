@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(40deg, #eee, #ccc);
+    padding: 30px;
+    border: 1px solid #b1a6a6;
+}
+#painel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 12px;
+}
+.botaoApagarNumero{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30%;
+    background-color: #84fa84;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+}
+.botaoApagarNumero:hover{
+    background-color: #fa8484;
+    color: #fff;
+}
+.botaoOperaçao{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30%;
+    background-color: #a8a8ee;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.botaoOperaçao:hover{
+    background-color: #7272f7;
+    color: #fff;
+}
+.botaoNumero{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30%;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+}
+.botaoNumero:hover{
+    background-color: #333;
+    color: #fff;
+    font-weight: 700;
+}
+.botaoResultado{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 30%;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.botaoResultado:hover{
+    background-color: #84fa84;
+    color: #fff;
+}
+
+

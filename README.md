@@ -1,0 +1,1 @@
+Calculadora Básica. Nessa calculadora podemos fazer as quatros principais operações: SOMAR, SUBTRAIR, DIVIDIR e MULTIPLICAR.
